@@ -12,5 +12,5 @@ let g:far#window_min_content_width=30
 let g:far#enable_undo=1
 
 " Find & Replace in current file 
-nnoremap<leader>ff :Farr --source=vimgrep<CR>
+nnoremap<leader>fd :Farr --source=vimgrep<CR>
 " Press s for save and u for undo
