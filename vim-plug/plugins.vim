@@ -70,8 +70,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sansyrox/vim-python-virtualenv'
     " Improve the syntax of python
     Plug 'vim-python/python-syntax'
-    " autopep8 - Format code
-    Plug 'nvie/vim-flake8'
+    " PEP8 - Format code
+    Plug 'tell-k/vim-autopep8'
+    " Markdown
+    Plug 'godlygeek/tabular'
+    Plug 'plasticboy/vim-markdown'
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+    " Django
+    Plug 'tweekmonster/django-plus.vim'
 
 call plug#end()
 
