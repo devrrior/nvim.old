@@ -16,14 +16,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'morhetz/gruvbox'
-    Plug 'crusoexia/vim-monokai'
-    Plug 'andreasvc/vim-256noir'
     Plug 'chriskempson/base16-vim'
-    Plug 'jacoborus/tender.vim'
-    Plug 'NLKNguyen/papercolor-theme'
     Plug 'joshdick/onedark.vim'
-    Plug 'arcticicestudio/nord-vim'
-    Plug 'tomasiser/vim-code-dark'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Keeping up to date with master
@@ -54,16 +48,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Quickscope
     Plug 'unblevable/quick-scope'
-    " Sneak
-    " Plug 'justinmk/vim-sneak'
     " Floaterm
     Plug 'voldikss/vim-floaterm'
     " Snippets with CoC
     Plug 'honza/vim-snippets'
     " Replace w/ FAR
     Plug 'ChristianChiarulli/far.vim'
-    " Better Whitespace
-    " Plug 'ntpeters/vim-better-whitespace'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
     " Fix to use venv with python
@@ -77,7 +67,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'plasticboy/vim-markdown'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     " Django
-    Plug 'tweekmonster/django-plus.vim'
+    " Plug 'tweekmonster/django-plus.vim'
+    " Tabnine
+    " Plug 'codota/tabnine-vim'
 
 call plug#end()
 

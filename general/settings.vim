@@ -36,6 +36,7 @@ set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
 set relativenumber
+set rtp+=/usr/local/opt/fzf/
 
 " New stuff
 " set notimeout nottimeout
